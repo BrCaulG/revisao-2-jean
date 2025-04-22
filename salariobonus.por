@@ -7,7 +7,7 @@ programa {
     leia(nome, salariof, totalvendas)
     comissao = totalvendas * 0.15
     resultado = salariof + comissao
-    escreva("TOTAL = R$ ",Mat.arredondar(resultado,2))
+    escreva("TOTAL = R$ ",Mat.arredondar(resultado,2), "\n")
     
   }
 }
